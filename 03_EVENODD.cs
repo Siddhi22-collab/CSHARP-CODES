@@ -1,24 +1,27 @@
-using System;
- 
-namespace check1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int i;
-            Console.Write("Enter a Number : ");
-            i = int.Parse(Console.ReadLine());
-            if (i % 2 == 0)
-            {
-                Console.Write("Entered Number is an Even Number");
-                Console.Read();
-            }
-            else
-            {
-                Console.Write("Entered Number is an Odd Number");
-                Console.Read();
-            }
-        }
-    }
+using System;  
+using System.Collections.Generic;  
+using System.Linq;  
+using System.Text;  
+using System.Threading.Tasks;  
+namespace ConsoleApplication1  
+{  
+    class CalcAvgPerc  
+    {  
+        static void Main(string[] args)  
+        {  
+            int num1 = 100;  
+            for (int i = 1; i <= num1; i++)  
+            {  
+                if (i % 2 == 0)  
+                {  
+                    Console.WriteLine("Number {0} is Even", i);  
+                }  
+                else  
+                {  
+                    Console.WriteLine("Number {0} is odd", i);  
+                }  
+            }  
+            Console.ReadKey();  
+        }  
+    }  
 }
