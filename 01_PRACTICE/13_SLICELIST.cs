@@ -1,0 +1,5 @@
+my_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+result1 = my_list[2:4]
+result2 = my_list[1:]
+result3 = my_list[:3]
+result4 = my_list[:3] + my_list[4:]
